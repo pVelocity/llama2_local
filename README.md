@@ -27,6 +27,11 @@ source env/bin/activate
 ./run.sh
 ```
 
+5. Interact with the LLM using chat interfaced hosted locally
+```
+http://{your_host_ip}:7860
+```
+
 ### Prerequisites
 To be able to download the model weights and tokenizer from Huggingface, you firtst need to visit the [Meta AI website](https://ai.meta.com/resources/models-and-libraries/llama-downloads/) and accept their License (my request got approved within 30 minutes). Make sure that you state the email address that you are also using for your Huggingface account. Once your request got accepted, you need to go to one of the Llama2 Huggingface repositories (e.g., the Llama2-7B model) and request access for there again, as can be seen in the following image (access should be granted right away):
 ![Huggingface Llama2 Access](./images/huggingface_llama2_access.png)
