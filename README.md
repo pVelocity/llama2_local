@@ -1,5 +1,5 @@
 # Llama2 on Your Local Computer
-Run the new Llama2 and Llama2-Chat models on your local computer.
+Run the new Llama2 and Llama2-Chat models on your local computer, specifically the research box that we setup using the Nividia Tesla P40 GPU.
 
 ## Getting Started
 
@@ -7,13 +7,24 @@ Run the new Llama2 and Llama2-Chat models on your local computer.
 
 1. Clone the repository:
 ```
-git clone https://github.com/thisserand/llama2_local.git
+git clone https://github.com/pVelocity/llama2_local.git 
 cd llama2_local
 ```
 
-2. Install required dependencies:
+2. Create a python virtual environment:
 ```
-pip install -r requirements.txt
+python3 -m venv env
+source env/bin/activate
+```
+
+3. Install required dependencies:
+```
+./install.sh
+```
+
+4. Run an example model
+```
+./run.sh
 ```
 
 ### Prerequisites
